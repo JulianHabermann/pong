@@ -8,6 +8,7 @@ module.exports = {
     entry: path.resolve(appDirectory, "src/app.ts"), //path to the main .ts file
     output: {
         filename: "js/pongBundle.js", 
+        path: path.resolve(appDirectory, 'public'),
     },
     resolve: {
         extensions: [".tsx", ".ts", ".js"],

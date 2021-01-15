@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --port 8080",
-    "start:dev": "webpack-dev-server --watch --mode=development --inline --port 8080"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
