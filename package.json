@@ -6,7 +6,10 @@
   "scripts": {
     "build": "webpack",
     "http-start": "http-server",
-    "dev": "webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp"
+    "dev": "webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack --mode production"
+    
   },
   "repository": {
     "type": "git",
