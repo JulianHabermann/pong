@@ -1,3 +1,6 @@
+// Credits to https://codeburst.io/deploy-your-webpack-apps-to-heroku-in-3-simple-steps-4ae072af93a8
+// Creating an express server that is viewable on Heroku
+
 const express = require('express');
 const path = require('path');
 const port = process.env.PORT || 8080;

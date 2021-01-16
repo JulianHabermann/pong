@@ -1,3 +1,7 @@
+// Credits to Babylon JS for the generic template for object
+// This file represents a sample "game" that could be uploaded. Here, it is a simple ball.
+// But, this file can be replaced with anything in Babylon JS and run on the server. 
+
 import "@babylonjs/core/Debug/debugLayer";
 import "@babylonjs/inspector";
 import "@babylonjs/loaders/glTF";
