@@ -18,6 +18,10 @@ Next, I had to create a webpack.config.js which contains the bundle creator for 
 
 Additionally, BabylonJS recommends using TypeScript for the game creation process. So, I had to create a configuration for it to run properly. 
 
+### Under the hood
+
+Honestly, I am not 100% confident about all of the processes here. Much of the work is already done by the individual components. But here is what I understand. With a properly formatted app.ts file in the src folder, Webpack creates a javacript bundle using the given requirements (including the developement server, Babylon JS, and HTML cleaning services) that is then readable into the computer directly using a blank HTML file. This HTML5 can be viewed directly, or using the developement server which modifies this webpack process. Finally, using an express server, we are able to run Webpack using Heroku and then use that snapshot to load an HTML5 page with the game's contents. 
+
 ### The game itself
 
 I initially tried to create 3D Pong. However, the physics engine in Babylon JS is tricky to work with and took too much effort to make especially after I learned that the project had already been done. So, I instead included a model to show the engine. 
