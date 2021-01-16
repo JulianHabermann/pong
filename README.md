@@ -2,7 +2,7 @@
 
 What was supposed to be a Recreation of 3D Pong ended up looking [not exactly like that](https://cs50pong.herokuapp.com/). While this may not be the fully-fledged game that I was planning, this project instead turned into a demo process for easily turning BabylonJS apps into websites given the death of Flash player. 
 
-Video tutorial: [youtube](https://cs50.harvard.edu/college/2020/fall/project/)
+Video tutorial: [youtube](https://www.youtube.com/watch?v=44lw9Hu0QeQ&feature=youtu.be)
 
 ## Processes 
 
